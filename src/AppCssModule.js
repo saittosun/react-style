@@ -82,7 +82,7 @@ class App extends Component {
           <button
             className={btnClass}
             onClick={this.togglePersonsHandler}
-            alt={this.state.showPersons}>Toggle Persons</button>
+            value={this.state.showPersons}>Toggle Persons</button>
           {persons}
         </div>
     );
